@@ -1,0 +1,19 @@
+.navbar {
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    background-color:#0257d8;
+  }
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  .nav-link {
+    margin-right: 1rem;
+  }
+  .admin p {
+    color: white;
+    margin-right: 1rem;
+    margin-top: 4px;
+    font-size: 14px;
+    font-weight: bold; 
+  }
+  
