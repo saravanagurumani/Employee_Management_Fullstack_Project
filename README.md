@@ -1,11 +1,11 @@
 
-                                  Employee Management System – Full-Stack Project
+                                  ### Employee Management System – Full-Stack Project
 
-📌 Project Overview
+##📌 Project Overview
 
 The Employee Management System (EMS) is a full-stack web application designed to efficiently manage employee records. It allows users to add, update, delete, and view employee details through an interactive React.js frontend and a robust Spring Boot backend. The system uses MySQL for data storage and follows RESTful API principles for seamless communication between the frontend and backend.
 
-Key Features
+## Key Features
 
 🛠️ Backend – Spring Boot (Java)
 ✔ Spring Boot Framework – Used to build a RESTful web service for handling employee data.
@@ -41,20 +41,21 @@ Database – MySQL
 | `DELETE`| `/employee/delete/{id}` | Remove an employee |
 
 
- Tech Stack Used
+ ## Tech Stack Used
  
-Technology	Usage
-Java (Spring Boot)	Backend development
-Spring MVC	Implements the Controller layer
-Spring Data JPA	ORM for database interaction
-MySQL	Stores employee data
-React.js	Frontend development
-Axios	Handles API requests
-React Router DOM	Navigation between pages
-Bootstrap & CSS	UI design & styling
+| Technology |	Usage |
+|------------|----------|
+|Java (Spring Boot) |	Backend development |
+| Spring MVC |	Implements the Controller layer |
+| Spring Data JPA	ORM  | for database interaction |
+| MySQL	| Stores employee data |
+| React.js	| Frontend development |
+| Axios	| Handles API requests |
+| React Router DOM	| Navigation between pages |
+| Bootstrap & CSS	| UI design & styling |
 
 
-Project Workflow
+## Project Workflow
 1️⃣ User opens the Employee Management System in a web browser.
 2️⃣ Frontend (React.js) displays the employee list using a GET API call.
 3️⃣ User adds a new employee by filling a form and submitting it (POST API call).
@@ -62,8 +63,8 @@ Project Workflow
 5️⃣ Backend (Spring Boot) processes the request and updates the MySQL database.
 6️⃣ Frontend UI updates dynamically to reflect changes.
 
-How to Run the Project Locally
-🔹 Backend (Spring Boot)
+## How to Run the Project Locally
+#🔹 Backend (Spring Boot)
 1️⃣ Install Java (JDK 17+) and Spring Boot.
 2️⃣ Open the project in IntelliJ IDEA or Eclipse.
 3️⃣ Set up MySQL database and configure application.properties:
@@ -74,7 +75,7 @@ How to Run the Project Locally
 Run the Spring Boot application:
     mvn spring-boot:run
 
-Frontend (React.js)
+#Frontend (React.js)
 
 1️⃣ Install Node.js and NPM.
 2️⃣ Open the project folder in VS Code.
@@ -83,13 +84,13 @@ Frontend (React.js)
 4️⃣ Start the React development server:
       npm start
 
-Additional Enhancements
+##Additional Enhancements
 🚀 Role-Based Access Control – Implement authentication for different user roles.
 🚀 Pagination & Search – Add features for searching and sorting employee records.
 🚀 Export to CSV/PDF – Allow users to export data for reporting purposes.
 🚀 Docker Deployment – Containerize the application for easy deployment.
 
-Conclusion
+##Conclusion
 
 The Employee Management System is a powerful full-stack project built using Spring Boot & React.js. It provides a user-friendly interface, efficient data management, and seamless API integration. This project is an excellent addition to your portfolio, demonstrating your ability to build scalable and secure web applications.
 
