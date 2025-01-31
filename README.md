@@ -30,14 +30,15 @@ Database – MySQL
 ✔ Entity-Relationship Mapping – Defines relationships between different entities (e.g., Employee and Department).
 
 
-REST API Endpoints (Backend)
+## REST API Endpoints (Backend)
 
-HTTP Method	Endpoint	Description
-GET	/employees	Get all employees
-GET	/employees/{id}	Get employee by ID
-POST	/employees	Add a new employee
-PUT	/employees/{id}	Update employee details
-DELETE	/employees/{id}	Delete an employee
+| Method  | Endpoint         | Description |
+|---------|-----------------|-------------|
+| `GET`   | `/employee/getall`    | Fetch all employees |
+| `GET`   | `/employee/{id}` | Get employee by ID |
+| `POST`  | `/employee/add`    | Add a new employee |
+| `PUT`   | `/employee/update/{id}` | Update employee details |
+| `DELETE`| `/employee/delete/{id}` | Remove an employee |
 
 
  Tech Stack Used
